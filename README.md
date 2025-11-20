@@ -11,8 +11,9 @@
 1. 拉取项目 `git clone https://github.com/tjsky/image-captcha-generator.git`
 2. 进入项目 `cd image-captcha-generator`
 3. 根据需求修改`media_bot.py`文件配置区域内参数
-4. 执行 `python media_bot.py`
-5. 查看 `imgs` 文件夹会出现本次生成的验证码图片
+4. 安装依赖 `pip install captcha Pillow`
+5. 执行 `python media_bot.py`
+6. 查看 `imgs` 文件夹会出现本次生成的验证码图片
 
 ## 参数
 
